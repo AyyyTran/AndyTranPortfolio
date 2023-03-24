@@ -5,13 +5,11 @@ import Fade from 'react-reveal/Fade';
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center md:items-start sm:items-center">
-        <div className="sm: flex">
-          <p className="md:text-6xl sm:text-4xl sm:pr-2 text-2xl font-bold">
-            I'm
-          </p>
+      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
+        <div className="flex justify-center">
+          <p className=" text-4xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed
-            className="uppercase md:text-6xl sm:text-4xl text-2xl font-bold text-[#b5c2b7]"
+            className="uppercase text-4xl pl-2 font-bold text-[#b5c2b7] md:text-6xl "
             strings={[' Andy Tran.', ' A Developer.', ' A 3 HEX CLIMBER.']}
             typeSpeed={125}
             backSpeed={100}
@@ -19,7 +17,7 @@ const Hero = () => {
           />
         </div>
         <Fade bottom>
-          <div className="flex pt-4">
+          <div className="flex pt-4 justify-center">
             <p className="text-2xl font-mono pr-4">Developer.</p>
             <p className="text-2xl font-mono pr-4">Climber.</p>
             <p className="text-2xl font-mono pr-4">Foodie.</p>

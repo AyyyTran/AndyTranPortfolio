@@ -1,11 +1,12 @@
-import React from 'react';
+import {useState, useEffect, useRef, React} from 'react';
 import Typed from 'react-typed';
 import Fade from 'react-reveal/Fade';
+import AndyTranCV from '../Assets/AndyTranCV.pdf';
 
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
+      <div className="max-w-[1000px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
         <div className="flex justify-center">
           <p className=" text-4xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed
@@ -25,7 +26,7 @@ const Hero = () => {
         </Fade>
         <div className="pt-4 flex justify-center">
           <a
-            className="pr-2 "
+            className="pr-2 flex items-center"
             href="https://www.linkedin.com/in/ayyytran/"
             target="_blank"
           >
@@ -35,13 +36,22 @@ const Hero = () => {
               alt="LinkedIn"
             />
           </a>
-          <a href="https://github.com/AyyyTran" target="_blank">
+          <a
+            className="flex items-center"
+            href="https://github.com/AyyyTran"
+            target="_blank"
+          >
             <img
               className="w-5 h-5 fill-white"
               src=".\src\Images/github.svg"
               alt="GitHub"
             />
           </a>
+          <button className="ml-10 bg-[#b5c2b7] text-white font-bold py-2 px-4 rounded-full hover:bg-white hover:text-[#303036]">
+            <a href={AndyTranCV} download="AndyTranCV">
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
       {/* ADD DOWNLOAD CV AND A CONTACT BUTTON */}

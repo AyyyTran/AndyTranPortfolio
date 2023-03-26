@@ -1,9 +1,17 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import Email from '../Images/mail.svg';
+import toast, {Toaster} from 'react-hot-toast';
 
 export const Contact = () => {
   const form = useRef();
+
+  const Success = () =>
+    toast.success('Message has been sent!', {position: 'bottom-center'});
+  const Fail = () =>
+    toast.error('Whoops, something went wrong! Try again later!', {
+      position: 'bottom-center',
+    });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,16 +26,20 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          Success();
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
+          Fail();
+          form.current.reset();
         }
       );
-    form.reset();
   };
 
   return (
     <div className="mb-8">
+      <Toaster bottom-center />
       <div
         className="text-4xl text-center font-bold h-full pt-28 pb-4"
         id="contact"

@@ -78,7 +78,7 @@ export const Contact = () => {
           onSubmit={sendEmail}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 px-6">
-            <div className="py-2">
+            <div className="py-2 md:pr-2">
               <label className="text-primary font-medium">Name</label>
               <input
                 className="text-grey bg-secondary border-4 rounded-lg border-primary py-2 px-4 block w-full focus:outline-none focus:border-blue-600"
@@ -88,7 +88,7 @@ export const Contact = () => {
                 required
               />
             </div>
-            <div className="py-2">
+            <div className="py-2 md:pl-2">
               <label className="text-primary font-medium">Email</label>
               <input
                 className="text-grey bg-secondary border-4 rounded-lg border-primary py-2 px-4 block w-full focus:outline-none focus:border-blue-600"

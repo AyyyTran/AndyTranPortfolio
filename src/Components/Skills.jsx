@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="text-4xl font-bold text-text-base text-center pt-4 pb-12">
         Technical Skills
       </div>
-      <div className="mr-8 w-screen">
+      <div className="w-auto">
         <Marquee
           gradient={false}
           speed={50}

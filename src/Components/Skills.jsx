@@ -2,12 +2,12 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className="h-[60vh] pt-24" id="skills">
+    <div className="h-full pt-24" id="skills">
       <div className="text-4xl font-semibold text-text-base text-center pt-4 pb-12">
         Technical Skills:
       </div>
-      <div className="grid grid-cols-2 place-items-center gap-4 md:flex md:justify-center ">
-        <div className=" w-[175px] rounded-xl bg-card shadow-md lg:max-w-lg">
+      <div className="grid grid-cols-2 place-items-center gap-4 text-secondary md:flex md:justify-center ">
+        <div className=" w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
             src=".\src\Images\css.svg"
@@ -17,7 +17,7 @@ const Skills = () => {
             CSS
           </h3>
         </div>
-        <div className="w-[175px] rounded-xl bg-card shadow-md lg:max-w-lg">
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
             src=".\src\Images\js.svg"
@@ -27,7 +27,7 @@ const Skills = () => {
             JavaScript
           </h3>
         </div>
-        <div className="w-[175px] rounded-xl bg-card shadow-md lg:max-w-lg">
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
             src=".\src\Images\html.svg"
@@ -37,7 +37,7 @@ const Skills = () => {
             HTML
           </h3>
         </div>
-        <div className="w-[175px] rounded-xl bg-card shadow-md lg:max-w-lg">
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
             src=".\src\Images\figma.svg"
@@ -47,7 +47,7 @@ const Skills = () => {
             Figma
           </h3>
         </div>
-        <div className="w-[175px] rounded-xl bg-card shadow-md lg:max-w-lg">
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
             src=".\src\Images\react.svg"

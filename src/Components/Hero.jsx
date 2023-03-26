@@ -6,7 +6,7 @@ import AndyTranCV from '../Assets/AndyTranCV.pdf';
 const Hero = () => {
   return (
     <div className="text-white" id="hero">
-      <div className="max-w-[1000px] mt-[-50px] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
+      <div className="max-w-[1000px] mt-[-3.5rem] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
         <div className="flex justify-center">
           <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed

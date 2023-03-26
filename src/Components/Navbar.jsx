@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center fixed top-[0] bg-primary w-full text-text-base text-lg z-50 h-14 mx-auto px-4">
+    <div className="flex items-center sticky top-0 bg-primary w-full text-text-base text-lg z-50 h-14 px-4">
       <Link
         className="w-full text-3xl font-bold text-white"
         to="hero"

@@ -8,13 +8,13 @@ const Hero = () => {
     <div className="text-white" id="hero">
       <div className="max-w-[1000px] mt-[-50px] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
         <div className="flex justify-center">
-          <p className=" text-4xl pr-2 font-bold md:text-6xl">I'm</p>
+          <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed
-            className="uppercase text-4xl pl-2 font-bold text-primary md:text-6xl "
+            className="uppercase text-3xl pl-2 font-bold text-primary md:text-6xl "
             strings={[
               ' Andy Tran.',
               ' A Developer.',
-              ' A 3 HEX CLIMBER.',
+              ' A CLIMBER.',
               'a Food Lover.',
             ]}
             typeSpeed={125}
@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
         <Fade bottom>
           <div className="flex pt-4 justify-center">
-            <p className="text-2xl font-mono pr-4">Developer.</p>
-            <p className="text-2xl font-mono pr-4">Climber.</p>
-            <p className="text-2xl font-mono pr-4">Foodie.</p>
+            <p className="text-xl font-mono pl-4 pr-2">Developer.</p>
+            <p className="text-xl font-mono pr-2">Climber.</p>
+            <p className="text-xl font-mono pr-2">Foodie.</p>
           </div>
         </Fade>
         <div className="pt-4 flex justify-center">
@@ -52,7 +52,7 @@ const Hero = () => {
               alt="GitHub"
             />
           </a>
-          <button className="ml-10 bg-primary text-text-base font-bold py-2 px-4 rounded-full hover:bg-text-base   hover:text-secondary">
+          <button className="ml-10 bg-primary text-text-base font-bold py-2 px-4 rounded-full hover:bg-text-base hover:text-secondary">
             <a href={AndyTranCV} download="AndyTranCV">
               Download CV
             </a>

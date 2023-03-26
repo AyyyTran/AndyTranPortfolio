@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="text-4xl font-semibold text-text-base text-center pt-4 pb-12">
         Technical Skills:
       </div>
-      <div className="grid grid-cols-2 place-items-center gap-4 text-secondary md:flex md:justify-center ">
+      <div className="grid grid-cols-2 place-items-center gap-2 text-secondary md:flex md:justify-center ">
         <div className=" w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
           <img
             className="flex pt-4 justify-center w-full h-[100px]"
@@ -55,6 +55,26 @@ const Skills = () => {
           />
           <h3 className=" flex justify-center items-center text-xl  font-semibold">
             React
+          </h3>
+        </div>
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
+          <img
+            className="flex pt-4 justify-center w-full h-[100px]"
+            src=".\src\Images\net.svg"
+            alt=".Net"
+          />
+          <h3 className=" flex justify-center items-center text-xl  font-semibold">
+            .Net Core
+          </h3>
+        </div>
+        <div className="w-[175px] py-4 rounded-xl bg-card shadow-md lg:max-w-lg">
+          <img
+            className="flex pt-4 justify-center w-full h-[100px]"
+            src=".\src\Images\csharp.svg"
+            alt="C"
+          />
+          <h3 className=" flex justify-center items-center text-xl  font-semibold">
+            C#
           </h3>
         </div>
       </div>

@@ -5,12 +5,12 @@ import AndyTranCV from '../Assets/AndyTranCV.pdf';
 
 const Hero = () => {
   return (
-    <div className="text-white">
-      <div className="max-w-[1000px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
+    <div className="text-white" id="hero">
+      <div className="max-w-[1000px] mt-[-50px] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
         <div className="flex justify-center">
           <p className=" text-4xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed
-            className="uppercase text-4xl pl-2 font-bold text-[#b5c2b7] md:text-6xl "
+            className="uppercase text-4xl pl-2 font-bold text-primary md:text-6xl "
             strings={[
               ' Andy Tran.',
               ' A Developer.',
@@ -52,7 +52,7 @@ const Hero = () => {
               alt="GitHub"
             />
           </a>
-          <button className="ml-10 bg-[#b5c2b7] text-white font-bold py-2 px-4 rounded-full hover:bg-white hover:text-[#303036]">
+          <button className="ml-10 bg-primary text-text-base font-bold py-2 px-4 rounded-full hover:bg-text-base   hover:text-secondary">
             <a href={AndyTranCV} download="AndyTranCV">
               Download CV
             </a>

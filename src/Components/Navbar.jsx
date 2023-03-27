@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center sticky top-0 bg-primary w-full text-text-base text-lg z-50 h-14 px-4">
       <Link
-        className="w-full text-3xl font-bold text-white"
+        className="w-full text-3xl font-bold text-white hover:cursor-pointer"
         to="hero"
         spy={true}
         smooth={true}
@@ -23,17 +23,17 @@ const Navbar = () => {
         Andy Tran
       </Link>
       <ul className=" hidden md:flex md:items-center">
-        <li className="p-4">
+        <li className="p-4 hover:cursor-pointer ">
           <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:cursor-pointer ">
           <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:cursor-pointer ">
           <Link
             to="projects"
             spy={true}
@@ -44,7 +44,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:cursor-pointer ">
           <Link
             to="contact"
             spy={true}
@@ -56,7 +56,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className="block md:hidden" onClick={handleNav}>
+      <div
+        className=" hover:cursor-pointer block md:hidden"
+        onClick={handleNav}
+      >
         <AiOutlineMenu size={40} />
       </div>
       {/* 303036 */}
@@ -70,7 +73,7 @@ const Navbar = () => {
         {/* MOBILE MENU */}
         <div className=" flex items-center px-4 pt-4">
           <Link
-            className="w-full text-3xl font-bold text-text-base"
+            className="w-full text-3xl font-bold hover:cursor-pointer text-text-base"
             to="hero"
             spy={true}
             smooth={true}
@@ -80,12 +83,12 @@ const Navbar = () => {
           >
             Andy Tran
           </Link>
-          <div className="block " onClick={handleNav}>
+          <div className="block hover:cursor-pointer " onClick={handleNav}>
             <AiOutlineClose size={40} />
           </div>
         </div>
         <ul className="uppercase">
-          <li className="p-4 flex justify-center">
+          <li className="p-4 hover:cursor-pointer  flex justify-center">
             <Link
               to="about"
               spy={true}
@@ -97,7 +100,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="p-4 flex justify-center">
+          <li className="p-4 hover:cursor-pointer  flex justify-center">
             <Link
               to="skills"
               spy={true}
@@ -109,7 +112,7 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li className="p-4 flex justify-center">
+          <li className="p-4 hover:cursor-pointer  flex justify-center">
             <Link
               to="projects"
               spy={true}
@@ -121,7 +124,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li className="p-4 flex justify-center">
+          <li className="p-4 hover:cursor-pointer  flex justify-center">
             <Link
               to="contact"
               spy={true}

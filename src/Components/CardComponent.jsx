@@ -3,24 +3,38 @@ import React from 'react';
 export default function CardComponent() {
   return (
     <div className="text-secondary w-full p-2 rounded-lg shadow-xl lg:flex lg:max-w-lg">
-      <img
-        className="object-cover w-24 lg:w-40 lg:h-40"
-        src=".\src\Images\bulb.png"
-        alt="image"
-      />
+      <div>
+        <img
+          className="object-cover w-full h-full"
+          src=".\src\Images\bcnails.png"
+          alt="image"
+        />
+      </div>
       <div className="pl-2">
         <h4 className="text-xl font-semibold tracking-tight text-blue-600">
-          react tailwind horizontal card image
+          BC Nails Salon
         </h4>
         <p className="mb-2 leading-normal">
-          react tailwind css horizontal card with image It is a long established
-          fact that a reader will be distracted by the readable content.
+          React Tailwind website for a local nail salon. Brought it thousands of
+          clicks a month and around 100 clicks withing the first few months.
         </p>
-        <button className="px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow">
-          Live Demo
+        <button className="px-2 mx-2 py-2 text-sm text-text-base bg-primary rounded shadow">
+          <a
+            href="https://bcnails.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>
         </button>
         <button className="px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow">
-          Code
+          <a
+            href="https://github.com/AyyyTran/bcnails"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code
+          </a>
         </button>
       </div>
     </div>

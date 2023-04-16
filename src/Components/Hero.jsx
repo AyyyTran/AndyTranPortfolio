@@ -37,7 +37,7 @@ const Hero = () => {
           >
             <img
               className="w-5 h-5 fill-white"
-              src="./src/Images/linkedin.svg"
+              src="/src/Images/linkedin.svg"
               alt="LinkedIn"
             />
           </a>

@@ -1,4 +1,6 @@
 import React from 'react';
+import LinkedIn from '../Images/linkedin.svg';
+import Github from '../Images/github.svg';
 
 const Footer = () => {
   return (
@@ -14,16 +16,12 @@ const Footer = () => {
             >
               <img
                 className="w-5 h-5 fill-white"
-                src="../Images/linkedin.svg"
+                src={LinkedIn}
                 alt="LinkedIn"
               />
             </a>
             <a href="https://github.com/AyyyTran" target="_blank">
-              <img
-                className="w-5 h-5 fill-white"
-                src="../Images/github.svg"
-                alt="GitHub"
-              />
+              <img className="w-5 h-5 fill-white" src={Github} alt="GitHub" />
             </a>
           </div>
         </div>

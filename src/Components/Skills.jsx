@@ -4,7 +4,7 @@ import Css from '../Images/css.svg';
 import Js from '../Images/js.svg';
 import Html from '../Images/html.svg';
 import Figma from '../Images/figma.svg';
-import React from '../Images/react.svg';
+import ReactImg from '../Images/react.svg';
 import Tailwind from '../Images/tailwind.svg';
 import Net from '../Images/net.svg';
 import Csharp from '../Images/csharp.svg';
@@ -84,7 +84,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src={React}
+              src={ReactImg}
               alt="React"
             />
             <h3 className=" flex justify-center items-center text-xl  font-semibold">

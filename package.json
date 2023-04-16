@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite",
-    "postinstall": "npm install --only=production && npm install --save --legacy-peer-deps @emailjs/browser && npm install --save --legacy-peer-deps react-scroll && npm install --save --legacy-peer-deps react-fast-marquee && npm install --save --legacy-peer-deps react-hot-toast",
+    "postinstall": "npm install --only=production && npm install --save --legacy-peer-deps @emailjs/browser && npm install --save --legacy-peer-deps react-scroll && npm install --save --legacy-peer-deps react-fast-marquee && npm install --save --legacy-peer-deps react-hot-toast && npm install --save --legacy-peer-deps react-reveal",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,7 +1,9 @@
-import {useState, useEffect, useRef, React} from 'react';
+import {React} from 'react';
 import Typed from 'react-typed';
 import Fade from 'react-reveal/Fade';
 import AndyTranCV from '../Assets/AndyTranCV.pdf';
+import LinkedIn from '../Images/linkedin.svg';
+import Github from '../Images/github.svg';
 
 const Hero = () => {
   return (
@@ -35,22 +37,14 @@ const Hero = () => {
             href="https://www.linkedin.com/in/ayyytran/"
             target="_blank"
           >
-            <img
-              className="w-5 h-5 fill-white"
-              src="/src/Images/linkedin.svg"
-              alt="LinkedIn"
-            />
+            <img className="w-5 h-5 fill-white" src={LinkedIn} alt="LinkedIn" />
           </a>
           <a
             className="flex items-center"
             href="https://github.com/AyyyTran"
             target="_blank"
           >
-            <img
-              className="w-5 h-5 fill-white"
-              src=".\src\Images/github.svg"
-              alt="GitHub"
-            />
+            <img className="w-5 h-5 fill-white" src={Github} alt="GitHub" />
           </a>
           <button className="ml-10 bg-primary text-text-base font-bold py-2 px-4 rounded-full hover:bg-text-base hover:text-secondary">
             <a href={AndyTranCV} download="AndyTranCV">

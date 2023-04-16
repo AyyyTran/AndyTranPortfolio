@@ -6,7 +6,7 @@ export default function CardComponent() {
       <div>
         <img
           className="object-cover w-full h-full"
-          src=".\src\Images\bcnails.png"
+          src="../Images/bcnails.png"
           alt="image"
         />
       </div>

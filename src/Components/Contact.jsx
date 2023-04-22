@@ -83,7 +83,7 @@ export const Contact = () => {
               <input
                 className="text-grey bg-secondary border-4 rounded-lg border-primary py-2 px-4 block w-full focus:outline-none focus:border-blue-600"
                 type="text"
-                placeholder="EX: John Doe"
+                placeholder="Enter Your Name"
                 name="name"
                 required
               />
@@ -93,7 +93,7 @@ export const Contact = () => {
               <input
                 className="text-grey bg-secondary border-4 rounded-lg border-primary py-2 px-4 block w-full focus:outline-none focus:border-blue-600"
                 type="email"
-                placeholder="EX: JohnDoe@gmail.com"
+                placeholder="Enter Your Email"
                 name="email"
                 required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"

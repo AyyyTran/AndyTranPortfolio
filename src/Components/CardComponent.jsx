@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjImage from '../Images/bcnails.png';
 
 export default function CardComponent() {
   return (
@@ -6,7 +7,7 @@ export default function CardComponent() {
       <div>
         <img
           className="object-cover w-full h-full"
-          src=".\src\Images\bcnails.png"
+          src={[ProjImage]}
           alt="image"
         />
       </div>

@@ -1,5 +1,14 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
+import Css from '../Images/css.svg';
+import Js from '../Images/js.svg';
+import Html from '../Images/html.svg';
+import Figma from '../Images/figma.svg';
+import ReactImg from '../Images/react.svg';
+import Tailwind from '../Images/tailwind.svg';
+import Net from '../Images/net.svg';
+import Csharp from '../Images/csharp.svg';
+import Git from '../Images/git.svg';
 
 const Skills = () => {
   return (
@@ -23,7 +32,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\css.svg"
+              src={Css}
               alt="CSS"
             />
             <h3 className=" flex justify-center items-center text-2xl font-semibold">
@@ -36,7 +45,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\js.svg"
+              src={Js}
               alt="JS"
             />
             <h3 className=" flex justify-center items-center text-xl font-semibold">
@@ -49,7 +58,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\html.svg"
+              src={Html}
               alt="HTML"
             />
             <h3 className=" flex justify-center items-center text-xl font-semibold">
@@ -62,7 +71,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\figma.svg"
+              src={Figma}
               alt="Figma"
             />
             <h3 className=" flex justify-center items-center text-xl font-semibold">
@@ -75,7 +84,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\react.svg"
+              src={ReactImg}
               alt="React"
             />
             <h3 className=" flex justify-center items-center text-xl  font-semibold">
@@ -88,7 +97,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\tailwind.svg"
+              src={Tailwind}
               alt="Tailwind"
             />
             <h3 className=" flex justify-center items-center text-xl  font-semibold">
@@ -101,7 +110,7 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\net.svg"
+              src={Net}
               alt=".Net"
             />
             <h3 className=" flex justify-center items-center text-xl  font-semibold">
@@ -114,8 +123,8 @@ const Skills = () => {
           >
             <img
               className="flex pt-4 justify-center w-full h-[100px]"
-              src=".\src\Images\csharp.svg"
-              alt="C"
+              src={Csharp}
+              alt="C#"
             />
             <h3 className=" flex justify-center items-center text-xl  font-semibold">
               C#
@@ -125,11 +134,7 @@ const Skills = () => {
             className=" w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
   lg:max-w-lg"
           >
-            <img
-              className="ml-8 h-[100px]"
-              src=".\src\Images\git.svg"
-              alt="Git"
-            />
+            <img className="ml-8 h-[100px]" src={Git} alt="Git" />
             <h3 className=" flex justify-center items-center text-2xl font-semibold">
               Git
             </h3>

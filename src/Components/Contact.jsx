@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import Email from '../Images/mail.svg';
+import Send from '../Images/send.svg';
 import toast, {Toaster} from 'react-hot-toast';
 
 export const Contact = () => {
@@ -125,11 +126,7 @@ export const Contact = () => {
                 type="submit"
                 value="Send"
               />
-              <img
-                className="w-4 h-4 mt-3 mr-3"
-                src=".\src\Images\send.svg"
-                alt="Send"
-              />
+              <img className="w-4 h-4 mt-3 mr-3" src={Send} alt="Send" />
             </div>
           </div>
         </form>

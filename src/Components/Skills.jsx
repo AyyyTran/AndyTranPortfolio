@@ -9,6 +9,7 @@ import Tailwind from '../Images/tailwind.svg';
 import Net from '../Images/net.svg';
 import Csharp from '../Images/csharp.svg';
 import Git from '../Images/git.svg';
+import Docker from '../Images/docker.svg';
 
 const Skills = () => {
   return (
@@ -143,11 +144,7 @@ const Skills = () => {
             className=" w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
   lg:max-w-lg"
           >
-            <img
-              className="ml-8 h-[100px]"
-              src=".\src\Images\docker.svg"
-              alt="Docker"
-            />
+            <img className="ml-8 h-[100px]" src={Docker} alt="Docker" />
             <h3 className=" flex justify-center items-center text-2xl font-semibold">
               Docker
             </h3>

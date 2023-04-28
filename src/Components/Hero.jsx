@@ -53,8 +53,6 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      {/* ADD DOWNLOAD CV AND A CONTACT BUTTON */}
-      {/* ADD LINKEDIN, GITHUB ICONS  */}
     </div>
   );
 };

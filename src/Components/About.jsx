@@ -16,18 +16,17 @@ const About = () => {
             alt="dog"
           />
         </Fade>
-        <div className="flex flex-col text-secondary">
-          <p className="text-4xl font-bold text-secondary md:text-5xl">
-            Hi! I am Andy.
+        <div className="flex flex-col text-secondary text-start">
+          <p className="text-l text-primary font-bold py-2 md:text-xl">
+            Computer Systems Technology Graduate at BCIT
           </p>
-          <p className="text-l font-mono py-4 md:text-xl">
-            Computer Systems Technology Graduate at British Columbia Institute
-            of Technology.
+          <p className="text-4xl pb-2 font-bold text-secondary md:text-5xl">
+            Hi! I am Andy.
           </p>
           <p className="tracking-wide text-md ">
             At BCIT, I gained valuable experience in a variety of development
-            roles, including front-end, back-end, quality assurance, database
-            engineer and full-stack.
+            roles, including front-end, back-end, quality assurance and
+            full-stack.
             <p className="tracking-wide text-md pt-4">
               I was fortunate to have the opportunity to work in these roles via
               personal projects, academic projects and hackathons!

@@ -13,8 +13,8 @@ import Docker from '../Images/docker.svg';
 
 const Skills = () => {
   return (
-    <div className="h-screen pt-24 " id="skills">
-      <div className="text-4xl font-bold text-text-base text-center pt-4 pb-12">
+    <div className="h-fit py-24 bg-text-base " id="skills">
+      <div className="text-4xl font-bold text-secondary text-center pt-4 pb-12">
         Technical Skills
       </div>
       <div className="w-auto pt-20">
@@ -28,7 +28,7 @@ const Skills = () => {
           direction="left"
         >
           <div
-            className=" w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className=" w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
   lg:max-w-lg"
           >
             <img
@@ -41,7 +41,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -54,7 +54,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -67,7 +67,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -80,7 +80,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -93,7 +93,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -106,7 +106,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -119,7 +119,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className="w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className="w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
  lg:max-w-lg"
           >
             <img
@@ -132,7 +132,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className=" w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className=" w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
   lg:max-w-lg"
           >
             <img className="ml-8 h-[100px]" src={Git} alt="Git" />
@@ -141,7 +141,7 @@ const Skills = () => {
             </h3>
           </div>
           <div
-            className=" w-[175px] py-4 mx-8 rounded-xl bg-card shadow-md bg-orange-400 bg-opacity-30
+            className=" w-[175px] py-4 mx-8 rounded-xl bg-secondary bg-opacity-90
   lg:max-w-lg"
           >
             <img className="ml-8 h-[100px]" src={Docker} alt="Docker" />

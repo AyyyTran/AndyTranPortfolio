@@ -5,7 +5,7 @@ module.exports = {
     colors: {
       primary: '#55917F',
       secondary: '#303036',
-      card: '#D1D1D1',
+      card: '#303036',
       'text-base': '#EAF2EF',
       grey: '#eaeaea',
     },

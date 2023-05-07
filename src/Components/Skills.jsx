@@ -14,7 +14,7 @@ import Docker from '../Images/docker.svg';
 const Skills = () => {
   return (
     <div className="h-fit py-24 bg-text-base " id="skills">
-      <div className="text-4xl font-bold text-secondary text-center pt-4 pb-12">
+      <div className="text-4xl font-bold text-secondary text-center py-4 ">
         Technical Skills
       </div>
       <div className="w-auto pt-20">

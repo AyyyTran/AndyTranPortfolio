@@ -4,7 +4,13 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <div className=" w-full h-full mt-[50px] pb-16 px-4 pt-32 " id="about">
+    <div
+      className="bg-text-base text-grey w-full h-full mt-[50px] pb-16 px-4 pt-32 "
+      id="about"
+    >
+      <div className="text-4xl font-bold text-secondary text-center py-4 ">
+        About Me!
+      </div>
       <div className="flex flex-col text-center items-center max-w-[1240px] mx-auto md:text-left md:grid md:grid-cols-2 ">
         <Fade left>
           <img
@@ -13,7 +19,7 @@ const About = () => {
             alt="dog"
           />
         </Fade>
-        <div className="flex flex-col text-start">
+        <div className="flex flex-col text-start bg-card p-4 rounded-lg pl-8">
           <p className="text-lg text-primary font-bold py-2 md:text-xl">
             Computer Systems Technology Graduate at BCIT
           </p>

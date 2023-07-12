@@ -1,5 +1,6 @@
 import BCNails from '../Images/bcnails.png';
 import hairbykatieh from '../Images/hairbykatieh.png';
+import SHEETimg from '../Images/SHEET.png';
 
 export const ProjectData = {
   imageURL: BCNails,
@@ -17,6 +18,15 @@ export const ProjectData2 = {
   description:
     'Website designed and coded based off of my own vision. Generated a website based off of client feedback to clearly display their strengths and talents.',
   imageDesc: 'hairbykatieh Website',
+  demoLink: 'https://hairbykatieh.vercel.app/',
+  codeLink: 'https://github.com/AyyyTran/hairbykatieh',
+};
+
+export const ProjectData3 = {
+  imageURL: SHEETimg,
+  heading: 'SHEET',
+  description: 'Timesheet and employee management system.',
+  imageDesc: 'SHEET Website',
   demoLink: 'https://hairbykatieh.vercel.app/',
   codeLink: 'https://github.com/AyyyTran/hairbykatieh',
 };

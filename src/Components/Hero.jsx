@@ -16,8 +16,8 @@ const Hero = () => {
             strings={[
               ' Andy Tran.',
               ' A Developer.',
-              ' A CLIMBER.',
-              'a Food Lover.',
+              ' A Golfer.',
+              ' A Climber.',
             ]}
             typeSpeed={125}
             backSpeed={100}
@@ -27,8 +27,8 @@ const Hero = () => {
         <Fade bottom>
           <div className="flex pt-4 justify-center">
             <p className="text-xl font-mono pl-4 pr-2">Developer.</p>
+            <p className="text-xl font-mono pr-2">Golfer.</p>
             <p className="text-xl font-mono pr-2">Climber.</p>
-            <p className="text-xl font-mono pr-2">Foodie.</p>
           </div>
         </Fade>
         <div className="pt-4 flex justify-center">

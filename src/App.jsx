@@ -13,12 +13,8 @@ function App() {
       <Hero />
       <Skills />
       <About />
-      {/* skills */}
-      {/* project */}
       <Projects />
-      {/* contact */}
       <Contact />
-      {/* footer */}
       <Footer />
     </div>
   );

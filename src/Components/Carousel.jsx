@@ -32,7 +32,7 @@ const ImageAndVideoCarousel = () => {
   };
 
   return (
-    <div className="lg:max-w-lg max-w-sm mx-auto p-4">
+    <div className="lg:max-w-lg max-w-sm xl:mx-72 p-4">
       <Slider {...settings}>
         {imagesAndVideos.map((item, index) => (
           <div key={index}>

@@ -11,11 +11,11 @@ export default function CardComponent(data) {
         />
       </div>
       <div className="pl-2 w-full ">
-        <h4 className="text-xl font-semibold tracking-tight text-blue-600">
+        <h4 className="text-2xl font-semibold tracking-tight text-blue-600">
           {data.heading}
         </h4>
-        <p className="mb-2 leading-normal">{data.description}</p>
-        <button className="px-2 mx-2 py-2 text-sm text-text-base bg-primary rounded shadow hover:scale-105">
+        <p className="my-2 leading-normal">{data.description}</p>
+        <button className="px-2 mr-2 py-2 text-sm text-text-base bg-primary rounded shadow hover:scale-105">
           <a href={data.demoLink} target="_blank" rel="noopener noreferrer">
             Demo
           </a>
@@ -25,6 +25,9 @@ export default function CardComponent(data) {
             Code
           </a>
         </button>
+        <h4 className="pt-2 text-xl font-semibold tracking-tight text-blue-600">
+          {data.tech}
+        </h4>
       </div>
     </div>
   );

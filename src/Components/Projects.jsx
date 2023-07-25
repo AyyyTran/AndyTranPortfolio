@@ -1,6 +1,10 @@
 import React from 'react';
 import CardComponent from './CardComponent';
-import ProjectData, {ProjectData2} from '../Data/ProjectData';
+import ProjectData, {
+  ProjectData2,
+  ProjectData3,
+  ProjectData4,
+} from '../Data/ProjectData';
 
 const Projects = () => {
   return (
@@ -15,6 +19,7 @@ const Projects = () => {
         imageDesc={ProjectData.imageDesc}
         demoLink={ProjectData.demoLink}
         codeLink={ProjectData.codeLink}
+        tech={ProjectData.tech}
       />
       <CardComponent
         imageURL={ProjectData2.imageURL}
@@ -23,14 +28,25 @@ const Projects = () => {
         imageDesc={ProjectData2.imageDesc}
         demoLink={ProjectData2.demoLink}
         codeLink={ProjectData2.codeLink}
+        tech={ProjectData2.tech}
       />
       <CardComponent
-        imageURL={ProjectData.imageURL}
-        heading={ProjectData.heading}
-        description={ProjectData.description}
-        imageDesc={ProjectData.imageDesc}
-        demoLink={ProjectData.demoLink}
-        codeLink={ProjectData.codeLink}
+        imageURL={ProjectData3.imageURL}
+        heading={ProjectData3.heading}
+        description={ProjectData3.description}
+        imageDesc={ProjectData3.imageDesc}
+        demoLink={ProjectData3.demoLink}
+        codeLink={ProjectData3.codeLink}
+        tech={ProjectData3.tech}
+      />
+      <CardComponent
+        imageURL={ProjectData4.imageURL}
+        heading={ProjectData4.heading}
+        description={ProjectData4.description}
+        imageDesc={ProjectData4.imageDesc}
+        demoLink={ProjectData4.demoLink}
+        codeLink={ProjectData4.codeLink}
+        tech={ProjectData4.tech}
       />
     </div>
   );

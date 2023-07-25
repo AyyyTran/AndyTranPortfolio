@@ -4,11 +4,15 @@ import Fade from 'react-reveal/Fade';
 import AndyTranCV from '../Assets/AndyTranCV.pdf';
 import LinkedIn from '../Images/linkedin.svg';
 import Github from '../Images/github.svg';
+import Carousel from './Carousel';
 
 const Hero = () => {
   return (
-    <div className="text-white" id="hero">
-      <div className="max-w-[1000px] mt-[-3.5rem] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center">
+    <div
+      className="text-white flex flex-col justify-center items-center h-screen md:flex-row"
+      id="hero"
+    >
+      <div className="max-w-[1000px] mt-[-3.5rem] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center lg:mr-0 md:w-min-md">
         <div className="flex justify-center">
           <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed
@@ -53,6 +57,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      <Carousel />
     </div>
   );
 };

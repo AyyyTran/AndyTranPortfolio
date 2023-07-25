@@ -7,7 +7,7 @@ export const ProjectData = {
   imageURL: BCNails,
   heading: 'BC Nails Salon',
   description:
-    'My spin and take of a React Tailwind website derived from the teachings of a YouTube tutorial. Brought it thousands of clicks a month and hundreds of conversions within the first few months.',
+    'My spin and take of a React Tailwind website derived from the teachings of a YouTube tutorial. Brought in thousands of clicks a month and hundreds of conversions within the first few months.',
   imageDesc: 'BC Nails Salon Website',
   demoLink: 'https://bcnails.vercel.app/',
   codeLink: 'https://github.com/AyyyTran/bcnails',

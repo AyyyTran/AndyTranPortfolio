@@ -1,5 +1,5 @@
 import React from 'react';
-import Dog from '../Images/dog.svg';
+import Me from '../Images/me.png';
 import Fade from 'react-reveal/Fade';
 
 const About = () => {
@@ -14,9 +14,9 @@ const About = () => {
       <div className="flex flex-col text-center items-center max-w-[1240px] mx-auto md:text-left md:grid md:grid-cols-2 ">
         <Fade left>
           <img
-            className="w-[300px] mx-auto my-4 md:px-4 md:w-[500px]"
-            src={Dog}
-            alt="dog"
+            src={Me}
+            alt="Me"
+            className="w-64 md:w-96 mx-auto my-4 rounded-xl"
           />
         </Fade>
         <div className="flex flex-col text-start bg-card p-4 rounded-lg pl-8">

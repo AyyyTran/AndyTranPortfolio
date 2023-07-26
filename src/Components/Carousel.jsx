@@ -32,7 +32,8 @@ const ImageAndVideoCarousel = () => {
   };
 
   return (
-    <div className="max-w-sm px-8 md:p-0">
+    // <div className="max-w-sm px-8 md:p-0">
+    <div className="w-64 md:w-96 mx-auto my-4 rounded-xl">
       <Slider {...settings}>
         {imagesAndVideos.map((item, index) => (
           <div key={index} className="aspect-w-16 aspect-h-9">

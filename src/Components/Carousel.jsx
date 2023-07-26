@@ -40,10 +40,10 @@ const ImageAndVideoCarousel = () => {
               <img
                 src={item.url}
                 alt={`Image ${index + 1}`}
-                className="w-full h-auto"
+                className="w-full h-auto rounded-xl"
               />
             ) : (
-              <video controls className="w-full h-auto object-cover">
+              <video controls className="w-full h-auto object-cover rounded-xl">
                 <source src={item.url} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>

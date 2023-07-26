@@ -12,7 +12,7 @@ const Hero = () => {
       className="text-white flex flex-col justify-center items-center h-screen lg:flex-row"
       id="hero"
     >
-      <div className="min-w-[700px] mt-[-3.5rem] pt-32 w-2/5 h-screen flex flex-col justify-center items-center  ">
+      <div className="min-w-[700px] mt-[-4rem] pt-36 w-2/5 h-[30vh] flex flex-col justify-center items-center  ">
         <div className="flex justify-center">
           <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed

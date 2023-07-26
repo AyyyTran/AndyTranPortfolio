@@ -9,10 +9,10 @@ import Carousel from './Carousel';
 const Hero = () => {
   return (
     <div
-      className="text-white flex flex-col justify-center items-center h-screen md:flex-row"
+      className="text-white flex flex-col justify-center items-center h-screen lg:flex-row"
       id="hero"
     >
-      <div className="max-w-[1000px] mt-[-3.5rem] pt-32 w-full h-screen mx-auto flex flex-col justify-center md:items-start items-center  ">
+      <div className="min-w-[700px] mt-[-3.5rem] pt-32 w-2/5 h-screen flex flex-col justify-center items-center  ">
         <div className="flex justify-center">
           <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
           <Typed

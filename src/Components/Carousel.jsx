@@ -35,7 +35,7 @@ const ImageAndVideoCarousel = () => {
     <div className="max-w-sm p-8 md:p-0">
       <Slider {...settings}>
         {imagesAndVideos.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="aspect-w-16 aspect-h-9">
             {item.type === 'image' ? (
               <img
                 src={item.url}
@@ -43,7 +43,7 @@ const ImageAndVideoCarousel = () => {
                 className="w-full h-auto"
               />
             ) : (
-              <video controls className="w-full h-auto">
+              <video controls className="w-full h-auto object-cover">
                 <source src={item.url} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>

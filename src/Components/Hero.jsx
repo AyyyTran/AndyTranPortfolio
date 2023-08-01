@@ -12,9 +12,9 @@ const Hero = () => {
       className="text-white flex flex-col justify-center items-center h-screen lg:flex-row"
       id="hero"
     >
-      <div className="min-w-[700px] mt-[2rem] lg:mt-[-4rem] pt-36 w-2/5 h-[30vh] flex flex-col justify-center items-center  ">
+      <div className="mt-[2rem] lg:mt-[-4rem] pt-36 w-3/5 h-[30vh] flex flex-col justify-center items-center  ">
         <div className="flex justify-center">
-          <p className=" text-3xl pr-2 font-bold md:text-6xl">I'm</p>
+          <p className=" text-3xl pr-1 font-bold md:text-6xl">I'm</p>
           <Typed
             className="uppercase text-3xl pl-2 font-bold text-primary md:text-6xl "
             strings={[

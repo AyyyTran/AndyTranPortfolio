@@ -11,7 +11,7 @@ export const ProjectData = {
   imageDesc: 'BC Nails Salon Website',
   demoLink: 'https://bcnails.vercel.app/',
   codeLink: 'https://github.com/AyyyTran/bcnails',
-  tech: 'Tech Stack: React, CSS, JavaScript, Vercel',
+  tech: 'Tech Stack: React, CSS, JavaScript, HTML, Vercel',
 };
 
 export const ProjectData2 = {
@@ -22,7 +22,7 @@ export const ProjectData2 = {
   imageDesc: 'hairbykatieh Website',
   demoLink: 'https://hairbykatieh.vercel.app/',
   codeLink: 'https://github.com/AyyyTran/hairbykatieh',
-  tech: 'Tech Stack: React, ViteJS, TailwindCSS, Vercel',
+  tech: 'Tech Stack: React, JavaScript, HTML, ViteJS, TailwindCSS, Vercel',
 };
 
 export const ProjectData3 = {

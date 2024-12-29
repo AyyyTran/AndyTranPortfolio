@@ -47,4 +47,15 @@ export const ProjectData4 = {
   tech: 'Tech Stack: HTML, CSS, JavaScript, C#, .NET, PHP, Twilio',
 };
 
+export const ProjectData5 = {
+  imageURL: 'QuizardAppImage',  // You can replace this with your app's image URL or a local file path
+  heading: 'Quizard - AI-powered Flashcard App',
+  description:
+    'Quizard is an AI-powered flashcard application that provides immediate feedback to users during self-study. The app uses advanced algorithms to analyze responses, offering personalized insights and helping users identify strengths and weaknesses for more efficient learning and knowledge retention.',
+  imageDesc: 'Quizard App Dashboard',
+  demoLink: 'https://youtu.be/yourdemo',  // Replace with your demo video URL
+  codeLink: 'https://github.com/edgarcoime/quizard.git',
+  tech: 'Tech Stack: Next.js, FastAPI, Python, SQLAlchemy, TailwindCSS, ShadCN, Zod, Groq API, Testing: Jest, Playwright, Pytest',
+};
+
 export default ProjectData;

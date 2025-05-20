@@ -27,13 +27,10 @@ const About = () => {
             Hi! I am Andy Tran.
           </p>
           <p className="tracking-wide text-md pt-4">
-            <b>Who am I?</b> I'm a developer passionate about turning ideas into practical, impactful solutions.
+            <b>Who am I?</b>     I’m a third-year Bachelor of Applied Computer Science student at BCIT specializing in Network Security, and I’m seeking a co-op opportunity beginning September 2025. I’ve tackled both academic and freelance projects across full-stack development, information management, and cybersecurity. 
           </p>
           <p className="tracking-wide text-md pt-4">
-            My journey in tech began with building computers, which sparked my interest in problem-solving through technology. After earning my diploma in Computer Systems Technology from BCIT, I've worked on a variety of projects, from my first website to collaborating on client solutions. Currently, I’m pursuing a Bachelor of Applied Science in Network Security at BCIT.
-          </p>
-          <p className="tracking-wide text-md pt-4">
-            I have a strong foundation in technologies such as web development, databases, APIs, cloud platforms, and testing. I’ve gained hands-on experience in different stages of software development and enjoy each aspect of the process.
+            I have a strong foundation in technologies such as web development, databases, APIs, cloud platforms, and testing. I’ve gained hands-on experience in different stages of software development through freelance and academic opportunities and enjoy each aspect of the process.
           </p>
           <p className="tracking-wide text-md pt-4">
             I'm now seeking a position where I can continue learning and growing within the tech industry. Let's connect!

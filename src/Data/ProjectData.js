@@ -2,16 +2,17 @@ import BCNails from '../Images/bcnails.png';
 import hairbykatieh from '../Images/hairbykatieh.png';
 import SHEETimg from '../Images/SHEET.png';
 import Kumon from '../Images/Kumon.png';
+import Healing from '../Images/HealingPetsNaturally.png';
 
 export const ProjectData = {
-  imageURL: BCNails,
-  heading: 'BC Nails Salon',
+  imageURL: Healing,
+  heading: 'Healing Pets Naturally Canine Nutrition',
   description:
-    'My spin and take of a React Tailwind website derived from the teachings of a YouTube tutorial. Brought in thousands of clicks a month and hundreds of conversions within the first few months.',
-  imageDesc: 'BC Nails Salon Website',
-  demoLink: 'https://bcnails.vercel.app/',
-  codeLink: 'https://github.com/AyyyTran/bcnails',
-  tech: 'Tech Stack: React, CSS, JavaScript, HTML, Vercel',
+  'A freelance client project for a canine nutrition consultant, built with React and Tailwind CSS. Includes a hidden custom admin panel for managing scheduling and customer inquiries as per client request and responsive layouts for all devices. Shipped, deployed and hosted currently in use by client.',
+  imageDesc: 'Healing Pets Naturally Website',
+  demoLink: 'https://www.healingpetsnaturallycaninenutrition.com/',
+  codeLink: 'https://github.com/AyyyTran/HealingPetsNaturallyCanineNutrition',
+  tech: 'Tech Stack: React, Tailwind CSS, JavaScript, HTML, CSS, Vercel',
 };
 
 export const ProjectData2 = {
@@ -47,7 +48,19 @@ export const ProjectData4 = {
   tech: 'Tech Stack: HTML, CSS, JavaScript, C#, .NET, PHP, Twilio',
 };
 
+
 export const ProjectData5 = {
+  imageURL: BCNails,
+  heading: 'BC Nails Salon',
+  description:
+  'My spin and take of a React Tailwind website derived from the teachings of a YouTube tutorial. Brought in thousands of clicks a month and hundreds of conversions within the first few months.',
+  imageDesc: 'BC Nails Salon Website',
+  demoLink: 'https://bcnails.vercel.app/',
+  codeLink: 'https://github.com/AyyyTran/bcnails',
+  tech: 'Tech Stack: React, CSS, JavaScript, HTML, Vercel',
+};
+
+export const ProjectData6 = {
   imageURL: 'QuizardAppImage',  // You can replace this with your app's image URL or a local file path
   heading: 'Quizard - AI-powered Flashcard App',
   description:

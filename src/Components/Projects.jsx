@@ -4,6 +4,8 @@ import ProjectData, {
   ProjectData2,
   ProjectData3,
   ProjectData4,
+  ProjectData5
+
 } from '../Data/ProjectData';
 
 const Projects = () => {
@@ -48,7 +50,7 @@ const Projects = () => {
         codeLink={ProjectData4.codeLink}
         tech={ProjectData4.tech}
       />
-      {/* <CardComponent
+      <CardComponent
         imageURL={ProjectData5.imageURL}
         heading={ProjectData5.heading}
         description={ProjectData5.description}
@@ -56,7 +58,7 @@ const Projects = () => {
         demoLink={ProjectData5.demoLink}
         codeLink={ProjectData5.codeLink}
         tech={ProjectData5.tech}
-      /> */}
+      />
     </div>
   );
 };

@@ -44,7 +44,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="p-4 hover:cursor-pointer ">
+        {/* <li className="p-4 hover:cursor-pointer ">
           <Link
             to="contact"
             spy={true}
@@ -54,7 +54,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
       <div
         className=" hover:cursor-pointer block md:hidden"
@@ -124,7 +124,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li className="p-4 hover:cursor-pointer  flex justify-center">
+          {/* <li className="p-4 hover:cursor-pointer  flex justify-center">
             <Link
               to="contact"
               spy={true}
@@ -135,7 +135,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
